@@ -1,0 +1,18 @@
+Timothy Allan (0233932)
+Lab 2 write up
+
+Step by step process of creating a shader:
+1.  Set up GLUT and GLEW
+2.  Display function to clear the screen and render
+3.  Create the shader using this line: GLuint vshader = glCreateShader(GL_VERTEX_SHADER);
+4.  Get the location of the shader file
+5.  Compile the shader
+6.  Check to make sure the shader compiled correctly
+7.  Create a program object, using the function glCreateProgram()
+8.  Attach the shaders to the program object
+9.  Bind the location of each shader to the program object
+10. Link your program
+11. Check to make sure the program linked correctly
+12. Install the program object
+13. Set up pointers and stuff
+14. Enable the vertex arrays to draw

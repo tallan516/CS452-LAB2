@@ -10,6 +10,7 @@
 #include <vector>
 #include <cstdio>
 #include <iostream>
+#include <string.h>
 using namespace std;
 
 //function prototypes
